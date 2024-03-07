@@ -12,7 +12,9 @@ label {
   margin: 5px 0 0 10px;
   padding: 5px 20px;
 }
-
+#c{
+  font-size: 50px;
+}
 label input {
   display: none;
 }
@@ -20,6 +22,8 @@ label input {
 canvas {
   display: block;
   width: 100%;
+  display: none;
+  visibility: hidden;
 }
 
 .info {
