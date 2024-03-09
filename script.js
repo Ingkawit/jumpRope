@@ -93,10 +93,10 @@ function main(){
   }else{avgAmp=0}
   //console.log(avgAmp)
   //if(avgAmp>0.15){
-    if(avgAmp-prevAmp>0.15&&change==0){
+    if(avgAmp-prevAmp>0.05&&change==0){
       change = 1
     }
-    if(avgAmp-prevAmp<-0.15&&change==1){//&&(avgAmp>0.15||prevAmp>0.15)){
+    if(avgAmp-prevAmp<-0.05&&change==1){//&&(avgAmp>0.15||prevAmp>0.15)){
       count++;
       c.innerHTML=count;
       change = 0
